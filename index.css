@@ -1,0 +1,112 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Source Code Pro", monospace;
+  background-color: black;
+  color: #00ff00;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Background Matrix effect */
+.matrix-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://i.imgur.com/0LbVpFy.gif") repeat;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.project {
+  background-color: rgb(0, 37, 0);
+  padding: 10px;
+  border-radius: 10px;
+}
+/* Header */
+header {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.header-content h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.header-content p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #00ff00;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #111;
+  border-bottom: 1px solid #00ff00;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #00ff00;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+nav ul li a:hover {
+  color: #00ff5f;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: ;
+}
+
+.scaled-image {
+  max-width: 800px; /* Or whatever size you prefer */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 10px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+button {
+  padding: 50px;
+  font-size: 30px;
+  background-color: #00ff00;
+  color: black;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
